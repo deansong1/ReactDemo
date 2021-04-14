@@ -6,7 +6,7 @@ Makefile.in
 /py-compile
 /test-driver
 /ylwrap
-
+node_modules/
 # http://www.gnu.org/software/autoconf
 
 autom4te.cache
