@@ -1,0 +1,9 @@
+.headers{
+    width: 500px;
+    height: 50px;
+}
+.headers input[type='text']{
+    width: 100%;
+    height: 50%;
+    margin:0 auto;
+}

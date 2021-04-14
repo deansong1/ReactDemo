@@ -1,0 +1,9 @@
+.table-zone{
+    margin-top:20px;
+}
+.first-row{
+    background-color: blueviolet;
+}
+.first-row>td:nth-child(4){
+    width:30%;
+}

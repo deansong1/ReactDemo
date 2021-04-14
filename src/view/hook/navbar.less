@@ -1,0 +1,32 @@
+.box{
+    position:relative;
+    img{
+        width:300px;
+        height:300px;
+        display: none;
+    }
+    img:nth-child(2){
+        margin:0 10px;
+    }
+
+    ul{
+        position:absolute;
+        bottom:-8px;
+        right:410px;
+        list-style: none;
+        li{
+            float:left;
+            border:2px solid lightblue;
+            color:lightblue;
+            font-size: 5px;
+            text-align: center;
+            margin: 0 4px;
+            width:20px;
+            height:20px;
+            line-height: 15px;
+        }
+        .active{
+            background:purple;
+        }
+    }
+}
