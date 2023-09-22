@@ -3,8 +3,8 @@ import {Provider} from "react-redux"
 import store from "./store/store"
 import './App.css';
 // import './view/demoCalu/demo-del.css';
-// import Demo1 from "./jspLumb/Demo1";
-// import Demo3 from "./jspLumb/Demo3";
+import Demo1 from "./jspLumb/Demo1";
+import Demo3 from "./jspLumb/Demo3";
 // import GojsDemo from "./view/gojsStudy/gojsTest";
 // import GojsDemo1 from "./view/gojsStudy/gojsTest1";
 // import GojsDemo2 from "./view/gojsStudy/goJsTest2";
@@ -47,9 +47,9 @@ function App() {
         {/* <MonitorChart/> */}
         {/* <Form1/> */}
         {/* <ModalTest/> */}
-        {/* <Demo3 initData={"3"}/> */}
+        <Demo3 initData={"3"}/> 
         {/* <JqDemo1/> */}
-        {/* <Demo1/> */}
+        <Demo1/> 
         {/* <GojsDemo1/> */}
         {/* <GojsDemo/> */}
         {/* <GojsDemo2/> */}
